@@ -1,7 +1,7 @@
 import numpy as np
 import random
 class NNetwork(object):
-
+    #comment
     def __init__(self, shape):
         self.n_layers = len(shape)
         self.biases = [np.random.randn(y, 1) for y in shape[1:]]
